@@ -17,6 +17,7 @@ int main()
     printf("\nEntre com num3:");
     scanf("%d", &num3);
     
+    //testa todas as hipoteses
     if ((num1<num2) && (num2<num3))
     {
         printf("\n(1) - %d -> %d - > %d\n", num1, num2, num3);
